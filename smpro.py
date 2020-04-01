@@ -52,7 +52,6 @@ def main():
     retain=False
     if(mqttOut==2):
         retain=True
-    hascentered=0
 
     wx={
             'a': {'cmd':10, 'desc':'Version',                 'noun':'version',       'lastVal':'', 'timeout':0, 'lastSent':0.0, 'lastRecv':0.0, 'dataType': 'str' },
