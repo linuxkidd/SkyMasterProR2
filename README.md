@@ -1,5 +1,6 @@
 # SkyMaster R2 Python Processor
-Python software for processing Astro-Smart's SkyMaster R2 USB Serial data
+Python software for processing [Astro-Smart's SkyMaster R2](http://astro-smart.com/index.php?p=1_26_Computerized-Sky-Master-Pro-System-SMP-R2-PRO) USB Serial data
+
 
 Tested with SMP-R2, but should work with SMP-R2-Pro and SMP-R2-Pro OLED.
 
