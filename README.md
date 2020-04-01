@@ -24,4 +24,4 @@ optional arguments:
                         Print on StdOut
 ```
 
-Copy the included `99-smpro_usb.rules` to `/etc/udev/rules.d/' then run `udevadm control -R`.  This way, a symlink of /dev/ttySMPRO will be created for use with the script so that it work no matter the USB enumeration order.
+Copy the included `99-smpro_usb.rules` to `/etc/udev/rules.d/` then run `udevadm control -R`.  This way, a symlink of `/dev/ttySMPRO` will be created for use with the script so that it work no matter the USB enumeration order.
