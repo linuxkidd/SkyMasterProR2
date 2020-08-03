@@ -59,23 +59,17 @@ sudo udvadm control -R
 ```
 4. Install Mosquitto ( or other MQTT broker of your choice ):
     - For debian based distros ( including Ubuntu ):
-```
-apt update && apt -y install mosquitto
-```
+      `apt update && apt -y install mosquitto`
     - For RPM based distros ( including RHEL, CentOS, Fedora ):
-```
-dnf -y install mosquitto
-```
+      `dnf -y install mosquitto`
     - For older RPM based distros:
-```
-yum -y install mosquitto
-```
+      `yum -y install mosquitto`
 5. Plug in the SMPro, the service should start automatically.
 6. Check the service is running with:
 ```
 systemctl status smpro@$PORT
 ```
-    - Where `$PORT` is likely ttyUSB0 -- you can check dmesg output to confirm which port was assigned.
+Where `$PORT` is likely ttyUSB0 -- you can check dmesg output to confirm which port was assigned.
 
 ### NOTE:
 - I've observed that the SMPro units sometimes stop responding.
