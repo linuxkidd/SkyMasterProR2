@@ -1,0 +1,12 @@
+[Unit]
+Description=SMPro monitor
+Wants=mosquitto.service
+After=mosquitto.service
+
+[Service]
+Restart=always
+RestartSec=1
+ExecStart=/usr/bin/python3 /usr/local/bin/smpro.py -b localhost -s0 -m2 -p /dev/%i
+
+[Install]
+WantedBy=multi-user.target
